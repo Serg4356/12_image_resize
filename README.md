@@ -18,11 +18,9 @@ optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
   -o OUTPUT, --output OUTPUT
-  -wh [WIDTH_HEIGHT [WIDTH_HEIGHT ...]], --width_height [WIDTH_HEIGHT [WIDTH_HEIGHT ...]]
-                        Width and Heigth of result image, only the first two
-                        arguments will be taken
+  -w WIDTH, --width WIDTH
+  -he HEIGHT, --height HEIGHT
   -s SCALE, --scale SCALE
-                        Scale of resize
 ```
 
 which you can explore symply by typing the following in command line:
