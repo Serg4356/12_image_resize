@@ -74,9 +74,9 @@ if __name__ == '__main__':
         options['width'],
         options['height'])
     original = Image.open(options['input'])
-    result = resize_image(
+    result_image = resize_image(
         original,
         options['scale'],
         options['width'],
         options['height'])
-    result.save(path_to_result)
+    result_image.save(path_to_result)
