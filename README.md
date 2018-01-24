@@ -30,7 +30,7 @@ $ python image_resize.py -h
 
 Example of programm output:
 ```bash
-$ python image_resize.py -i C:\devman\map.png -wh 1500 1200
+$ python image_resize.py -i C:\devman\map.png -w 1500 -he 1200
 Result image proportion will be changed
 ```
 After that you will find your resized image here: C:\devman\map__1500x1200.png
